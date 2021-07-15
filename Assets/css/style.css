@@ -1,0 +1,46 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+#end {
+    margin: auto;
+}
+
+header
+{
+    padding: 15px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1
+{
+    font-size: 35px;
+    color: darkorange;
+}
+
+header h1 span
+{
+    font-size: 35px;
+    color: darkorange;
+}
+
+.page {
+    text-align: center;
+    padding: 50px;
+}
+
+.page p {
+    font-size: large;
+    margin: 40px;
+    font-style: italic;
+    font-display: bold;
+    font-size: 200%
+}
+
+.page button{
+    padding: 10px;
+    margin: auto;
+}

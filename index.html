@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Assets/css/style.css">
+
+    <title>Challenge 4 - Coding Quiz</title>
+</head>
+
+<body>
+    <header>
+        <h1>TIME: <span id="timer">20</span></h1>
+    </header>
+    <main>
+        <div class="page text-center" id="mainHome">
+            <h1>Coding Quiz !</h1>
+            <p>
+                Please read each question and find the right answer for the question.
+            </p>
+            <button class="button" id="startButton">Start Quiz</button>
+            <button class="button" id="scores">Score Ranking</button>
+        </div>
+
+        <div id="gameDiv" style="display:none">
+            <h2 id="gameQuestion"></h2>
+            <div id="gameChoice"></div>
+        </div>
+
+        <div id="playAgain" style="display:none"></div>
+
+        <div id="result" style="display:none">
+            <h2 id="displayScore"></h2>
+            <form>
+                <label for="initial">Enter your name for saving your score</label>
+                <input type="text" id="itnitials" name="initials">
+                <input type="save" value="Save">
+            </form>
+        </div>
+    </main>
+    <script src="./Assets/js/js.js"></script>
+</body>
+
+</html>
